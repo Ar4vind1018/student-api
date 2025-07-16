@@ -5,6 +5,7 @@ import Addstudent from './components/Addstudent';
 import Search from './components/Search';
 import Delete from './components/Delete';
 import Viewall from './components/Viewall';
+import L from './components/L';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/delete' element={<Delete/>} />
         <Route path='/view' element={<Viewall/>} />
         <Route path='/add' element={<Addstudent/>} />
+        <Route path='/l'element={<L/>}/>
       </Routes>
       </BrowserRouter>
     </div>
